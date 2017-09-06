@@ -2,6 +2,6 @@ steps:
   - name: ":hammer: Example Script"
     command: "script.sh"
     artifact_paths: "artifacts/*"
-    environment:
+    env:
       - "BUILDKITE_DOCKER=true"
       - "BUILDKITE_DOCKER_FILE=Dockerfile"
