@@ -2,6 +2,6 @@ steps:
   - name: ":hammer: Example Script"
     command: "script.sh"
     artifact_paths: "artifacts/*"
-    env:
-      - "BUILDKITE_DOCKER=true"
-      - "BUILDKITE_DOCKER_FILE=Dockerfile"
+    plugins:
+      docker-compose#v2.5.1:
+        run: bash
