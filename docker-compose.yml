@@ -2,3 +2,6 @@ version: '3'
 services:
   bash:
     build: .
+    working_dir: /app
+    volumes:
+      - .:/app

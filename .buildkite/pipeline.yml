@@ -1,6 +1,6 @@
 steps:
   - name: ":hammer: Example Script"
-    command: "script.sh"
+    command: "./script.sh"
     artifact_paths: "artifacts/*"
     plugins:
       docker-compose#v2.5.1:
