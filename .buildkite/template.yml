@@ -4,7 +4,7 @@ emoji: ":docker:"
 color: "#EFF9FF"
 languages:
   - "Docker"
-  - "Bash"
+  - "Shell"
 steps:
   - label: ":pipeline:"
     command: "buildkite-agent pipeline upload"
