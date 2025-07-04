@@ -1,5 +1,10 @@
-name: "Docker Example"
-description: "An example docker repository you can use as a test project with Buildkite"
+name: "Docker Compose Pipeline Example"
+description: "An example pipeline that runs a Bash script in Docker Compose using the Docker Compose Buildkite plugin."
+emoji: ":docker:"
+color: "#EFF9FF"
+languages:
+  - "Docker"
+  - "Bash"
 steps:
-  - command: "buildkite-agent pipeline upload"
-    label: ":pipeline:"
+  - label: ":pipeline:"
+    command: "buildkite-agent pipeline upload"
